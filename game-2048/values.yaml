@@ -2,7 +2,7 @@ image:
   repository: evilroot/docker-2048
   tag: latest
 
-replicaCount: 3
+replicaCount: 1
 
 service:
   port: 8080

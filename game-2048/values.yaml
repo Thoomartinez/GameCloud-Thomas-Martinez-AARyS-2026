@@ -1,0 +1,9 @@
+image:
+  repository: evilroot/docker-2048
+  tag: latest
+
+replicaCount: 3
+
+service:
+  port: 8080
+  containerPort: 80

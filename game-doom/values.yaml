@@ -1,0 +1,12 @@
+image:
+  repository: kasmweb/doom
+  tag: 1.19.0-rolling-daily
+
+replicaCount: 2
+
+service:
+  port: 6901
+  containerPort: 6901
+
+vnc:
+  password: "password"
